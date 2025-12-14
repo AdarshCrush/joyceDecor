@@ -101,7 +101,7 @@ export default function Footer() {
 
                 <div>
                   <h3 className="text-2xl font-serif font-bold">
-                    Joyc<span className="text-amber-400">Decor</span>
+                    Joyce<span className="text-amber-400">Decor</span>
                   </h3>
                   <p className="text-amber-200 text-sm font-medium">
                     Creating Magical Moments
@@ -189,7 +189,7 @@ export default function Footer() {
               </h3>
               <div className="space-y-4">
                 <a
-                  href="tel:+919876543210"
+                  href="tel:+918072287335"
                   className="flex items-center gap-3 p-3 bg-white/5 rounded-lg hover:bg-white/10 transition-colors group"
                 >
                   <Phone className="w-5 h-5 text-amber-400 group-hover:scale-110 transition-transform" />
@@ -199,6 +199,8 @@ export default function Footer() {
                 </a>
                 <a
                    className="flex items-center gap-3 p-3  bg-white/5 rounded-lg hover:bg-white/10 transition-colors group"
+                
+                href="mailto:Joycedecor.ngl@gmail.com?subject=Inquiry&body=Hello, I would like to get more information about..."
                 >
                   <Mail className="w-5 h-5 text-amber-400 group-hover:scale-110 transition-transform" />
                   <span className="text-gray-300 group-hover:text-white">
@@ -222,7 +224,7 @@ export default function Footer() {
           {/* Bottom Section */}
           <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-center md:text-left mb-4 md:mb-0">
-  © 2021 JoycDecor | Creating unforgettable events | Creative design by ❤️Adarsh
+  © 2021 JoyceDecor | Creating unforgettable events | Creative design by ❤️Adarsh
 </p>
             {/* <div className="flex space-x-6 text-gray-400">
               <a href="#" className="hover:text-amber-400 transition-colors">

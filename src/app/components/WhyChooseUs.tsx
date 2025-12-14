@@ -46,7 +46,7 @@ export default function Section() {
             <div className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-1 rounded-full text-xs font-semibold mb-3 transform -translate-x-4 group-hover:translate-x-0 transition-transform duration-500">
               Wedding
             </div>
-            <h3 className="text-3xl font-bold text-white mb-2">Marraigr Decoration</h3>
+            <h3 className="text-3xl font-bold text-white mb-2">Marriage Decoration</h3>
             <p className="text-white/80 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
               Celebrating love & togetherness
             </p>

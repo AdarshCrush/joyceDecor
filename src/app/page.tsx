@@ -20,6 +20,7 @@ import { useRouter } from "next/navigation";
 import DecorationVideoSection from "./components/videoSection";
 import WhyChooseUs from "./components/WhyChooseUs";
 import FullPageLoader from "./components/FullPageLoader";
+import Mapsection from  "./components/MapSection"
 import CustomerService from "./components/CustomerReviewsSection"
 
 // Types
@@ -779,7 +780,7 @@ const DecorationEventApp = () => {
       <Contact />
       <Profile/>
             <CustomerService/>
-
+<Mapsection/>
     </>
   );
 };

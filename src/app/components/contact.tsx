@@ -58,7 +58,7 @@ Sent via Event Decor Website
   };
 
   const handleQuickCall = () => {
-    window.location.href = "tel:+919876543210";
+    window.location.href = "tel:+918072287335";
   };
 
   return (
@@ -106,7 +106,7 @@ Sent via Event Decor Website
                   <Mail className="w-5 h-5" />
                 </div>
                 <div>
-                  <p className="font-semibold">joycedecor7@gmail.com</p>
+                  <p className="font-semibold">Joycedecor.ngl@gmail.com</p>
                   <p className="text-amber-100 text-sm">Send us an email</p>
                 </div>
               </div>

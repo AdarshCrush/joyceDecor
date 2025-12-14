@@ -51,7 +51,7 @@ const OwnerProfileSection = () => {
                 {/* Floating Elements - Very Small */}
                 <div className={`absolute -top-2 -right-2 w-8 h-8 sm:w-10 sm:h-10 bg-amber-400 rounded-lg rotate-12 shadow-sm transition-all duration-600 delay-200 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
                   <div className="w-full h-full flex items-center justify-center text-white font-bold text-xs">
-                    9+
+                    5+
                   </div>
                 </div>
                 
@@ -69,7 +69,7 @@ const OwnerProfileSection = () => {
             {/* Name & Title */}
             <div className={`transition-all duration-400 delay-100 ${isVisible ? 'translate-x-0 opacity-100' : 'translate-x-4 opacity-0'}`}>
               <h1 className="text-xl sm:text-2xl lg:text-3xl font-bold text-gray-900">
-                Prayer <span className="text-amber-600">Singh</span>
+                Prayer<span className="text-amber-600">Singh</span>
               </h1>
               <p className="text-sm sm:text-base text-orange-500 font-semibold mt-0.5">
                 Master Decorator
@@ -86,7 +86,7 @@ const OwnerProfileSection = () => {
             {/* Stats Grid */}
             <div className={`grid grid-cols-3 gap-2 sm:gap-3 transition-all duration-400 delay-200 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-3 opacity-0'}`}>
               <div className="text-center bg-white p-2 sm:p-3 rounded-lg shadow-sm border border-gray-100">
-                <div className="text-base sm:text-lg font-bold text-amber-600">9+</div>
+                <div className="text-base sm:text-lg font-bold text-amber-600">5+</div>
                 <div className="text-xs text-gray-500">Years</div>
               </div>
               <div className="text-center bg-white p-2 sm:p-3 rounded-lg shadow-sm border border-gray-100">
@@ -106,7 +106,7 @@ const OwnerProfileSection = () => {
                   <span className="text-amber-600 text-xs sm:text-sm">👑</span>
                 </div>
                 <div>
-                  <p className="text-gray-500 text-xs">Founded 2015</p>
+                  <p className="text-gray-500 text-xs">Founded 2021</p>
                   <p className="text-gray-900 font-medium text-xs sm:text-sm">Owner & Creative Director</p>
                 </div>
               </div>
@@ -140,7 +140,7 @@ const OwnerProfileSection = () => {
         {/* Micro Signature */}
         <div className={`text-center mt-4 sm:mt-6 transition-all duration-400 delay-400 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
           <div className="inline-flex flex-col items-center">
-            <div className="text-gray-400 text-xs">Creating memories since 2015</div>
+            <div className="text-gray-400 text-xs">Creating memories since 2021</div>
             <div className="text-amber-600 font-semibold text-sm">Prayer Singh</div>
           </div>
         </div>

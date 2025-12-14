@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 const reviews = [
   {
     id: 1,
-    name: "Adarsh",
+    name: "Ashok",
     role: "Wedding Event",
     review: "Absolutely stunning decoration! Everything was perfectly arranged and exceeded our expectations.",
     rating: 5,
@@ -14,7 +14,7 @@ const reviews = [
   },
   {
     id: 2,
-    name: "Vishnu",
+    name: "Nikash",
     role: "Birthday Celebration",
     review: "Professional team with beautiful designs. The setup was elegant and very well managed.",
     rating: 5,
@@ -22,7 +22,7 @@ const reviews = [
   },
   {
     id: 3,
-    name: "Sethupathi",
+    name: "Krishna Kumar",
     role: "Corporate Event",
     review: "High-quality work and on-time execution. The decor added a premium touch to our event.",
     rating: 4,
@@ -30,7 +30,7 @@ const reviews = [
   },
   {
     id: 4,
-    name: "Ajay",
+    name: "Vishwanath",
     role: "Anniversary Party",
     review: "They transformed our backyard into a magical space. Attention to detail was incredible.",
     rating: 5,
@@ -180,6 +180,7 @@ export default function CustomerReviewsSection() {
           </a>
         </motion.div>
       </div>
+      
     </section>
   );
 }
