@@ -36,7 +36,7 @@ export default function Section() {
       <div className="col-span-12 md:col-span-5 row-span-2 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.1s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&h=900&fit=crop" 
+          src="https://static.wixstatic.com/media/e01144_27e4e27a648a49489a46b22dc4272333~mv2.png/v1/fill/w_640,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/e01144_27e4e27a648a49489a46b22dc4272333~mv2.png" 
           alt="Corporate Events"
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '500px'}}
@@ -44,11 +44,11 @@ export default function Section() {
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent">
           <div className="absolute bottom-0 left-0 right-0 p-8 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
             <div className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-4 py-1 rounded-full text-xs font-semibold mb-3 transform -translate-x-4 group-hover:translate-x-0 transition-transform duration-500">
-              CORPORATE
+              Wedding
             </div>
-            <h3 className="text-3xl font-bold text-white mb-2">Corporate Events</h3>
+            <h3 className="text-3xl font-bold text-white mb-2">Marraigr Decoration</h3>
             <p className="text-white/80 mb-4 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-              Professional conferences, seminars & product launches
+              Celebrating love & togetherness
             </p>
             <button className="bg-white text-amber-900 px-6 py-2 rounded-full font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200 hover:bg-amber-50">
               View Details →
@@ -64,7 +64,7 @@ export default function Section() {
       <div className="col-span-6 md:col-span-4 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.2s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=600&h=400&fit=crop" 
+          src="./images/birthday.webp" 
           alt="Birthday Parties"
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '240px'}}
@@ -86,7 +86,7 @@ export default function Section() {
       <div className="col-span-6 md:col-span-3 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.3s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1511795409834-ef04bbd61622?w=500&h=400&fit=crop" 
+          src="./images/table.webp" 
           alt="Social Events"
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '240px'}}
@@ -94,9 +94,9 @@ export default function Section() {
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent">
           <div className="absolute bottom-0 left-0 right-0 p-6">
             <div className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-3 py-1 rounded-full text-xs font-semibold mb-2">
-              SOCIAL
+              Dining
             </div>
-            <h3 className="text-xl font-bold text-white mb-1">Social Events</h3>
+            <h3 className="text-xl font-bold text-white mb-1">Dining Decoration</h3>
             <p className="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">
               Engagement parties & reunions
             </p>
@@ -108,7 +108,7 @@ export default function Section() {
       <div className="col-span-6 md:col-span-3 row-span-2 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.4s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1533174072545-7a4b6ad7a6c3?w=500&h=700&fit=crop" 
+          src="./images/photo.jpeg" 
           alt="Cultural Events"
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '500px'}}
@@ -116,11 +116,12 @@ export default function Section() {
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent">
           <div className="absolute bottom-0 left-0 right-0 p-6 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
             <div className="inline-block bg-gradient-to-r from-amber-400 to-amber-500 text-white px-3 py-1 rounded-full text-xs font-semibold mb-2">
-              TRADITIONAL
+              Professional
             </div>
-            <h3 className="text-2xl font-bold text-white mb-2">Cultural Events</h3>
+            <h3 className="text-2xl font-bold text-white mb-2">Photo and video grapher</h3>
             <p className="text-white/70 text-sm mb-3 opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-100">
-              Festivals, traditional ceremonies & religious events
+             Capturing weddings, festivals, and unforgettable moments.
+
             </p>
             <button className="bg-white text-amber-900 px-4 py-2 rounded-full text-sm font-semibold opacity-0 group-hover:opacity-100 transition-opacity duration-500 delay-200 hover:bg-amber-50">
               Explore →
@@ -133,7 +134,7 @@ export default function Section() {
       <div className="col-span-6 md:col-span-4 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.5s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&h=400&fit=crop" 
+          src="./images/cars.jpg" 
           alt="Anniversary"
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '240px'}}
@@ -141,11 +142,13 @@ export default function Section() {
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent">
           <div className="absolute bottom-0 left-0 right-0 p-6">
             <div className="inline-block bg-gradient-to-r from-pink-500 to-pink-600 text-white px-3 py-1 rounded-full text-xs font-semibold mb-2">
-              ROMANTIC
+              Luxury
             </div>
-            <h3 className="text-2xl font-bold text-white mb-1">Anniversary</h3>
+            <h3 className="text-2xl font-bold text-white mb-1">Wedding Car Service
+</h3>
             <p className="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              Celebrating love & togetherness
+              Elegant and luxury cars for a stylish and memorable wedding arrival.
+
             </p>
           </div>
         </div>
@@ -155,17 +158,17 @@ export default function Section() {
       <div className="col-span-6 md:col-span-4 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.6s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?w=600&h=350&fit=crop" 
+          src="https://img1.wsimg.com/isteam/ip/3ee4e8e5-6ba3-4cfb-8879-abee2af7872e/IMG_2180.jpeg/:/cr=t:0%25,l:0%25,w:100%25,h:100%25/rs=w:600,cg:true" 
           alt="Product Launch"
-          className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
+          className="w-full h-50 object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '200px'}}
         />
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent">
           <div className="absolute bottom-0 left-0 right-0 p-6">
             <div className="inline-block bg-gradient-to-r from-amber-500 to-amber-600 text-white px-3 py-1 rounded-full text-xs font-semibold mb-2">
-              BUSINESS
+              Stall Items
             </div>
-            <h3 className="text-xl font-bold text-white">Product Launches</h3>
+            <h3 className="text-xl font-bold text-white">Popcorn&Cottoncandy</h3>
           </div>
         </div>
       </div>
@@ -174,7 +177,7 @@ export default function Section() {
       <div className="col-span-6 md:col-span-3 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.7s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=500&h=350&fit=crop" 
+          src="./images/veg.avif" 
           alt="Charity Events"
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '200px'}}
@@ -182,9 +185,11 @@ export default function Section() {
         <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-gray-900/40 to-transparent">
           <div className="absolute bottom-0 left-0 right-0 p-6">
             <div className="inline-block bg-gradient-to-r from-rose-500 to-rose-600 text-white px-3 py-1 rounded-full text-xs font-semibold mb-2">
-              GIVING BACK
+             Catering Service
+
             </div>
-            <h3 className="text-xl font-bold text-white">Charity Events</h3>
+            <h3 className="text-xl font-bold text-white">Delicious and hygienic food services .
+</h3>
           </div>
         </div>
       </div>
@@ -193,7 +198,7 @@ export default function Section() {
       <div className="col-span-12 md:col-span-5 group relative overflow-hidden rounded-3xl cursor-pointer shadow-lg hover:shadow-2xl transition-shadow duration-300"
            style={{animation: 'fadeInScale 0.8s ease-out 0.8s both'}}>
         <img 
-          src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?w=800&h=350&fit=crop" 
+          src="./images/outdoor.webp" 
           alt="Concerts"
           className="w-full h-full object-cover transform group-hover:scale-110 transition-transform duration-700"
           style={{minHeight: '200px'}}
@@ -201,11 +206,16 @@ export default function Section() {
         <div className="absolute inset-0 bg-gradient-to-r from-gray-900/80 via-gray-900/40 to-transparent">
           <div className="absolute bottom-0 left-0 right-0 p-6">
             <div className="inline-block bg-gradient-to-r from-amber-500 to-pink-500 text-white px-4 py-1 rounded-full text-xs font-semibold mb-2">
-              ENTERTAINMENT
+              Outdoor Celebrations
+
+
+
             </div>
-            <h3 className="text-2xl font-bold text-white mb-1">Concerts & Shows</h3>
+            <h3 className="text-2xl font-bold text-white mb-1">              Outdoor Event Services
+</h3>
             <p className="text-white/70 text-sm opacity-0 group-hover:opacity-100 transition-opacity duration-500">
-              Live performances, music festivals & entertainment events
+             Complete decoration and setup for open-air celebrations and gatherings.
+
             </p>
           </div>
         </div>
