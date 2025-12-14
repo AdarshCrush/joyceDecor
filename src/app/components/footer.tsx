@@ -224,7 +224,7 @@ export default function Footer() {
           {/* Bottom Section */}
           <div className="border-t border-white/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-gray-400 text-center md:text-left mb-4 md:mb-0">
-  © 2021 JoyceDecor | Creating unforgettable events | Creative design by ❤️Adarsh
+  © 2021 JoyceDecor | Creating unforgettable events | website crafted by ❤️ Adarsh.
 </p>
             {/* <div className="flex space-x-6 text-gray-400">
               <a href="#" className="hover:text-amber-400 transition-colors">
