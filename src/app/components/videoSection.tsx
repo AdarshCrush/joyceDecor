@@ -32,12 +32,12 @@ export default function DecorationVideoSection() {
       <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent" />
 
       {/* Animated Content */}
-      <div className="max-w-7xl mx-auto relative text-center">
+      <div className="max-w-7xl mx-auto relative text-center   ">
         <motion.div
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.3 }}
-          className="transition-all duration-1000 delay-300"
+          className="transition-all duration-1000 delay-300 flex flex-col justify-between max-[430px]:gap-6  max-[325px]:gap-0  "
         >
           {/* Badge */}
           <motion.div
@@ -72,30 +72,31 @@ export default function DecorationVideoSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-          <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-1 lg:mb-1 leading-tight">
-  Make Your
-  <span className="block bg-gradient-to-r from-amber-300 to-pink-300 bg-clip-text text-transparent relative">
-    <motion.span
-      className="block"
-      initial={{ backgroundPosition: "200% center" }}
-      animate={{ backgroundPosition: "-200% center" }}
-      transition={{
-        repeat: Infinity,
-        duration: 3,
-        ease: "linear",
-      }}
-      style={{
-        backgroundSize: "200% auto",
-        backgroundImage: "linear-gradient(90deg, #fbbf24, #f472b6, #fbbf24)",
-        WebkitBackgroundClip: "text",
-        WebkitTextFillColor: "transparent",
-        backgroundClip: "text",
-      }}
-    >
-      Events Shine
-    </motion.span>
-  </span>
-</h1>
+            <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold text-white mb-1 sm:mb-10  md:mb-8 lg:mb-2 leading-tight">
+              Make Your
+              <span className="block bg-gradient-to-r from-amber-300 to-pink-300 bg-clip-text text-transparent relative">
+                <motion.span
+                  className="block"
+                  initial={{ backgroundPosition: "200% center" }}
+                  animate={{ backgroundPosition: "-200% center" }}
+                  transition={{
+                    repeat: Infinity,
+                    duration: 3,
+                    ease: "linear",
+                  }}
+                  style={{
+                    backgroundSize: "200% auto",
+                    backgroundImage:
+                      "linear-gradient(90deg, #fbbf24, #f472b6, #fbbf24)",
+                    WebkitBackgroundClip: "text",
+                    WebkitTextFillColor: "transparent",
+                    backgroundClip: "text",
+                  }}
+                >
+                  Events Shine
+                </motion.span>
+              </span>
+            </h1>
           </motion.div>
 
           {/* Paragraph */}
@@ -104,7 +105,7 @@ export default function DecorationVideoSection() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.5 }}
           >
-            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto leading-relaxed mb-4 md:mb-5 font-light">
+            <p className="text-xl md:text-2xl text-white/90 max-w-3xl mx-auto  leading-relaxed mb-4 sm:mb-14 md:mb-12 lg:mb-15 font-light">
               Professional event decoration services that transform your vision
               into breathtaking reality. From intimate gatherings to grand
               celebrations.

@@ -410,23 +410,23 @@ const DecorationEventApp = () => {
                 className="object-contain md:w-[106px] w-26"
                 priority
               />
-              <div className="sm:block hidden">
+              <div className="sm:block hidden ">
                 <h1 className="text-sm font-serif font-bold text-gray-800">
                   Premium 
                 </h1>
-                <p className="text-sm font-serif font-bold text-amber-600">
+                <p className="text-sm md:text-xs font-serif font-bold text-amber-600">
                   Event Decorations 
                 </p>
               </div>
             </div>
 
             {/* Desktop Navigation */}
-            <nav className="hidden md:flex items-center md:space-x-3 lg:space-x-8">
+            <nav className="hidden md:flex items-center md:space-x-2 lg:space-x-8">
               {navLinks.map((item) => (
                 <a
                   key={item.name}
                   href={item.href}
-                  className="text-black hover:text-amber-600 md:font-small lg:font-medium transition-all duration-300 hover:scale-105 relative group"
+                  className="text-black hover:text-amber-600 md:font-small  lg:font-medium transition-all duration-300 hover:scale-105 relative group"
                 >
                   {item.name}
                   <span className="absolute bottom-0 left-0 w-0 h-0.5 bg-amber-600 transition-all duration-300 group-hover:w-full"></span>
